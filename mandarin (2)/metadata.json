@@ -1,0 +1,6 @@
+{
+  "name": "Mandarin HSK 1 Interaktif & Latihan Workbook",
+  "description": "Platform belajar interaktif Bahasa Mandarin HSK 1 dan Buku Latihan Workbook dengan audio native, latihan Tianzi Ge, autentikasi aman terenkripsi, dan dasbor analitik aktivitas pengguna.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

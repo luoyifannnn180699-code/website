@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-hanzi {
+    font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  }
+  .font-brand {
+    font-family: 'Fredoka', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Chinese Tianzi Ge grid pattern */
+.tianzi-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(239, 68, 68, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(239, 68, 68, 0.25) 1px, transparent 1px);
+  background-size: 50% 50%;
+  background-position: center;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f59e0b;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+
